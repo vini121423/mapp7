@@ -1,0 +1,250 @@
+.parallax {
+  background-image: url("../../assets/img/parallax.png");
+  height: 900px;
+  background-attachment: fixed;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
+}
+
+img{
+  height: 490px;
+  width: 510px;
+}
+
+#sobre {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  #titulo-sobre {
+    color: #e02041;
+    font-size: 36px;
+
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+  }
+
+  p {
+    color: #e02041;
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .box {
+    display: table;
+    height: 550px;
+    text-align: center;
+  }
+
+  .row {
+    margin: 0;
+  }
+}
+
+#mecanicos {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  #titulo-mecanicos {
+    color: #e02041;
+    font-size: 36px;
+
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-top: 10px;
+    
+  }
+
+  p {
+    color: #e02041;
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .box {
+    display: table;
+    height: 550px;
+    text-align: center;
+  }
+
+  .row {
+    margin: 0;
+  }
+}
+
+#locais {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  #titulo-locais {
+    color: #e02041;
+    font-size: 36px;
+
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 70px;
+  }
+
+  .subtitulo {
+    color: #e02041;
+
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  img {
+    display: table-cell;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    transform: translateY(10%);
+    height: 720px;
+    width: 720px;
+  }
+}
+
+#ajuda {
+  margin-top: 150px;
+  margin-bottom: 50px;
+
+  #titulo-ajuda {
+    color: #e02041;
+    font-size: 36px;
+
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 80px;
+  }
+
+  .row {
+    margin: 0;
+  }
+
+  input {
+    margin-bottom: 30px;
+
+    font-size: 18px;
+    color: black;
+    border-radius: 0;
+  }
+
+  textarea {
+    font-size: 18px;
+    color: black;
+    border-radius: 0;
+	max-width:868px;
+	min-width:868px;
+	max-height:200px;
+	min-height:100px;
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #e02041;
+    border: 0;
+    font-size: 25px;
+    font-weight: bold;
+    color: #f0f0f5;
+    float: right;
+
+    &:hover {
+      background-color: #b91d37;
+    }
+
+    
+  }
+}
+
+#contato {
+  margin-top: 100px;
+  background-color: #c4c4c4;
+  color: #e02041;
+  font-weight: bold;
+  font-size: 14px;
+  padding-left: 40px;
+  padding-bottom: 0;
+  height: 80px;
+  width:100%;
+  margin-bottom: 0;
+  text-align: center;
+
+  .row {
+    margin: 0;
+  }
+
+  .suporte{
+    padding-top: 20px;
+	
+  }
+
+  .duvidas{
+    text-align: center;
+    padding-left: 50px;
+	padding-top:20px;
+  }
+
+  .telefone{
+    padding: 20px 40px 0 0;
+  }
+
+  .direitos{
+    padding-top:20px;
+  }
+  
+  .redes{
+  padding-top:20px;
+  }
+
+  fa-icon{
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+    color: #e02041;
+
+    &:hover{
+      color: #b91d37;
+    }
+  }
+}
+
+
+.dist {
+  margin-top: 30px;
+}
+
+
+button{
+ border-radius:20px;
+}
