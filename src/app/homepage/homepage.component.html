@@ -90,9 +90,9 @@
       <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8">
-          <input type="text" class="form-control" placeholder="Nome" />
-          <input type="email" class="form-control" placeholder="Email" />
-          <textarea type="text" class="form-control" rows="5" placeholder="Digite sua dúvida"></textarea>
+          <input type="text" class="form-control" placeholder="Nome" [maxLength]="50" />
+          <input type="email" class="form-control" placeholder="Email" [maxLength]="75" />
+          <textarea type="text" class="form-control" rows="5" placeholder="Digite sua dúvida" [maxLength]="300"></textarea>
           <button type="button">Enviar</button>
         </div>
         <div class="col-md-2"></div>
